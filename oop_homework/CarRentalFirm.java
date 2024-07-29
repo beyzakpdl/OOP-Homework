@@ -34,7 +34,7 @@ public class CarRentalFirm {
         list1.add(customer);
         list1.add(cars);
         list1.add(rentalDuration);
-
+        set.add(list1);
         if (rentalType == "Monthly") {
             if (cars instanceof SUV_Cars) {
                 price = cars.MonthlyRentalPrice(rentalDuration);
